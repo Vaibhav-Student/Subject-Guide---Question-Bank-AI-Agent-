@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "F:\Education\Agentic_AI_Sesstion\Project\V2\test_imports.py", line 14, in <module>
+    from document_loader import load_and_chunk, detect_document_type
+  File "F:\Education\Agentic_AI_Sesstion\Project\V2\document_loader.py", line 26, in <module>
+    from langchain.schema import Document
+ModuleNotFoundError: No module named 'langchain.schema'
+Testing config import...
+  config OK (CHUNK_SIZE=1000)
+Testing document_loader import...
